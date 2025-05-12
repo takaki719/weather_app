@@ -1,0 +1,3 @@
+requests>=2.32
+boto3>=1.34      # SSM 読み取り
+python-dateutil>=2.9
