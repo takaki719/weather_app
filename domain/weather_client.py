@@ -5,7 +5,7 @@ from functools import lru_cache
 def _get_api_key():
     ssm = boto3.client("ssm")
     api_key = ssm.get_parameter(Name="OWM_API_KEY", WithDecryption=True)["Parameter"]["Value"]
-    print("✅ APIキーの取得結果:", api_key)  # ← これ追加！
+    print("✅ APIキーの取得結果:", api_key)  # デバッグ用
     return ssm.get_parameter(Name="OWM_API_KEY", WithDecryption=True)["Parameter"]["Value"]
 
 LAT, LON = os.getenv("LAT", "34.7320499"), os.getenv("LON", "135.7336346")  # default: 東京駅
