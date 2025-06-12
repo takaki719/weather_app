@@ -82,5 +82,5 @@ weather_app/
 `scheduler.tf`にはAWS EventBridgeスケジューラーの設定が含まれており、定期的な天気通知の自動実行が可能です。
 
 ## 動作例
-![IMG_7641](https://github.com/user-attachments/assets/354aee3d-34d2-422c-b2de-5d27ee8a4294)
+<img width="512" alt="sample" src="https://github.com/user-attachments/assets/354aee3d-34d2-422c-b2de-5d27ee8a4294">
 
